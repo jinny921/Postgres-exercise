@@ -1,5 +1,3 @@
-
-
 exports.up = function(knex) {
   return knex.schema.createTable("milestones", (table) => {
     table.increments();
